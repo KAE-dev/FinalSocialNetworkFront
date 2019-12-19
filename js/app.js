@@ -126,7 +126,7 @@ router.register('/messages', MessagesPage);
 
 
 const [backendUrl, websocketUrl] = ['localhost', '127.0.0.1'].includes(window.location.hostname) ?
-  ['http://localhost:9999', 'ws://localhost:9999/ws'] : ['https://final-network-back.herokuapp.com/', 'wss://final-network-back.herokuapp.com/ws'];
+  ['http://localhost:9999', 'ws://localhost:9999/ws'] : ['https://final-network-back.herokuapp.com', 'wss://final-network-back.herokuapp.com/ws'];
 
 const api = new Api(`${backendUrl}/api`);
 new Context(document.getElementById('root'), api, router, translator, `${backendUrl}/api/files/entity`, websocketUrl);
