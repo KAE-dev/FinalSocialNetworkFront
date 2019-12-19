@@ -1,0 +1,25 @@
+{
+  "name": "front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server --entry-file=index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KAE-dev/FinalSocialNetworkFront.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KAE-dev/FinalSocialNetworkFront/issues"
+  },
+  "homepage": "https://github.com/KAE-dev/FinalSocialNetworkFront#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
