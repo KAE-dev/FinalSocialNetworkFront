@@ -6,7 +6,6 @@ export default class Router {
   }
 
   init() {
-    // todo: route to current path
   }
 
   register(path, component) {

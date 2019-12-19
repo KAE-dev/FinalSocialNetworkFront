@@ -1,4 +1,3 @@
-// TODO: remove code duplication
 export default class MainPage {
     constructor(context) {
         this._context = context;
