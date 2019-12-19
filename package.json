@@ -1,7 +1,6 @@
 {
   "name": "front",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "live-server --entry-file=index.html"
@@ -21,5 +20,7 @@
   },
   "engines": {
     "node": "12.x"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
